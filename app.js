@@ -10,6 +10,6 @@ io.on('connection', (socket) => {
         io.emit('message', e);
     });
 });
-httpServer.listen(5000, '192.168.86.207', () => {
+httpServer.listen(5000, () => {
     console.log('Done listening');
 });
